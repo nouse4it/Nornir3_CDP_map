@@ -21,13 +21,17 @@ It then configures the collected hostname informaiton on the corresponding inter
 The script is able to perform the update on multiple devices in parallel. This makes it possible to run the script on many devices at once.
 
 ## Installation
-Pleae use NORNIR Version 3.0
+Pleae use at least NORNIR Version 3.0
 Following Packtes, Modules and Requirements are needed:
     
-    nornir==3.0.0
-    nornir-napalm==0.1.1
+    genie==21.2.3
+    nornir==3.1.0
+    nornir-jinja2==0.1.2
+    nornir-napalm==0.1.2
     nornir-netmiko==0.1.1
+    nornir-utils==0.1.2
     paramiko==2.7.2
+    pyats==21.2
     
 For more informations see ---> https://github.com/nornir-automation/nornir
 Python Version must be at least v3.6.8
