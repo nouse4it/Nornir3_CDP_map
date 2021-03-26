@@ -53,5 +53,6 @@ The scripts start an will ask you for the follwing input:
 Please see [LICENSE](https://github.com/nouse4it/netmiko_IOS_Update/blob/master/LICENSE)
 
 ## Credit
-The original idea and basic setup of this script came from @IPvZero. Please check out his repo here on github. 
+The original idea and basic setup of this script came from @IPvZero
+Please check out his repo here on github. 
 I added the possibility to rename port channels and enable CDP on specific ports in a VLAN.
