@@ -21,6 +21,10 @@ The script collects all cdp neighbor information from all ports.
 It then configures the collected hostname informaiton on the corresponding interface (incl. Port-channel)
 The script is able to perform the update on multiple devices in parallel. This makes it possible to run the script on many devices at once.
 
+As aneasy example you have small topology here:
+
+![Topology](imgs/Topolgy.jpg)
+
 ## Installation
 Pleae use at least NORNIR Version 3.0
 Following Packtes, Modules and Requirements are needed:
@@ -47,7 +51,7 @@ For that please use the following files:
     
 For more help how to setup a inventory please see ---> https://nornir.readthedocs.io/en/latest/tutorial/inventory.html
 
-When you finisched setting up the inventory you can run the script with python3 nornir3_cdp_map.py
+When you finished setting up the inventory you can run the script with python3 nornir3_cdp_map.py
 The scripts start an will ask you for the follwing input:
     
 * Username for login on the switches
