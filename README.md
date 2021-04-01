@@ -41,13 +41,13 @@ Following Packtes, Modules and Requirements are needed:
 For more informations see ---> https://github.com/nornir-automation/nornir
 Python Version must be at least v3.6.8
 ## Usage
-Please create the neccessary inventory files that nornir works with, and adjust them to your enviroment.
+Please create the neccessary inventory files (see in inventory folder) that nornir works with, and adjust them to your enviroment.
 For that please use the following files:
 
-* nornir3_config.yaml     ---> basis config of how nornir should handle connections and where to gather informations
-* nornir3_defaults.yaml   ---> can be left empty, but must be present as a file
-* nornir3_groups.yaml     ---> is used to group your hosts an provide a plattform info (used for authentication)
-* nornir3_hosts.yaml      ---> is used to put in the hosts you want to run the scripts against in yaml format
+* config.yaml     ---> basis config of how nornir should handle connections and where to gather informations
+* defaults.yaml   ---> can be left empty, but must be present as a file
+* groups.yaml     ---> is used to group your hosts an provide a plattform info (used for authentication)
+* hosts.yaml      ---> is used to put in the hosts you want to run the scripts against in yaml format
     
 For more help how to setup a inventory please see ---> https://nornir.readthedocs.io/en/latest/tutorial/inventory.html
 
