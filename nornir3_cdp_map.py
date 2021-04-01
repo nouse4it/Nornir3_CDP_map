@@ -23,7 +23,7 @@ from nornir.core.filter import F
 import time
 import getpass
 
-nr = InitNornir(config_file="/nornir3_config.yaml")
+nr = InitNornir(config_file="/nornir_config.yaml")
 
  Set Credentials for Group 
 access_user = input('Enter Access Username: ') # Enter Username for Switch in Group
