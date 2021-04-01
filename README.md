@@ -58,5 +58,5 @@ Please see [LICENSE](https://github.com/nouse4it/netmiko_IOS_Update/blob/master/
 
 ## Credit
 The original idea and basic setup of this script came from @IPvZero 
-Please check out his repo here on github. 
+Please check out his [repo here on github](https://github.com/IPvZero/cdp-map) 
 I added the possibility to rename port channels and enable CDP on specific ports in a VLAN.
